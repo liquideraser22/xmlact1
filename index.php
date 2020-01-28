@@ -9,7 +9,7 @@
 	<?php
 		foreach($content as $data)
 		{
-			$mo
+			
 			$title = $data->getElementsbyTagName("title")->item(0)->nodeValue;
 			$actor = $data->getElementsbyTagName("actor")->item(0)->nodeValue;
 			$genre = $data->getElementsbyTagName("genre")->item(0)->nodeValue;
@@ -18,7 +18,7 @@
 			
 			echo"<li>Movie:$title
 			<ul> 	
-				<li>Movie Actir: $actor </li>
+				<li>Movie Actor: $actor </li>
 				<li>Movie Genre: $genre </li>
 				<li>Movie Director: $director </li>
 			</ul>
