@@ -11,7 +11,7 @@ $sql = "SELECT * FROM tbl_movies";
 $query = mysqli_query($connect,$sql) or die (mysqli_error($connect));
 
 while($record= mysqli_fetch_assoc($query)) {
-	extract($row);
+	extract($record);
 	
 	$rss .= '<movie>';
 	$rss .= '<movie title>' . $mov_title .'</movie title>';
