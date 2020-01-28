@@ -9,17 +9,18 @@
 	<?php
 		foreach($content as $data)
 		{
+			$mo
+			$title = $data->getElementsbyTagName("title")->item(0)->nodeValue;
+			$actor = $data->getElementsbyTagName("actor")->item(0)->nodeValue;
+			$genre = $data->getElementsbyTagName("genre")->item(0)->nodeValue;
+			$director = $data->getElementsbyTagName("director")->item(0)->nodeValue;
 			
-			$mov_title = $data->getElementsbyTagName("title")->item(0)->nodeValue;
-			$mov_actor = $data->getElementsbyTagName("actor")->item(0)->nodeValue;
-			$mov_genre = $data->getElementsbyTagName("genre")->item(0)->nodeValue;
-			$mov_director = $data->getElementsbyTagName("director")->item(0)->nodeValue;
 			
-			
-			echo"<li>Movie:$movie
+			echo"<li>Movie:$title
 			<ul> 	
-				<li>$mov_title - Title</li>
-				<li>Movie Genre: $mov_genre </li>
+				<li>Movie Actir: $actor </li>
+				<li>Movie Genre: $genre </li>
+				<li>Movie Director: $director </li>
 			</ul>
 			</li>";	
 	}
