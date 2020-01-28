@@ -16,7 +16,7 @@
 			$director = $data->getElementsbyTagName("director")->item(0)->nodeValue;
 			
 			
-			echo"<li>Movie:$title
+			echo "<li>Movie:$title
 			<ul> 	
 				<li>Movie Actor: $actor </li>
 				<li>Movie Genre: $genre </li>
