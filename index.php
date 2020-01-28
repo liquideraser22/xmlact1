@@ -14,7 +14,7 @@
     .border{
         border: 1px solid blue;
         max-width: 50rem;
-       
+        border-radius: 10px;
         background-color: grey;
     }
 </style>
