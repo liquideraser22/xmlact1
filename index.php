@@ -8,7 +8,10 @@
 <ul>
 	<?php
 		foreach($content as $data)
-		{
+	{?>	
+	<div class="border">
+		<?php
+		
 			$id = $data->getElementsbyTagName("id")->item(0)->nodeValue;
 			$title = $data->getElementsbyTagName("title")->item(0)->nodeValue;
 			$actor = $data->getElementsbyTagName("actor")->item(0)->nodeValue;
@@ -25,4 +28,7 @@
 			</li>";	
 </ul>			
 	?>
-	}
+	</div>
+	<?php
+		}
+?>
