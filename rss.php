@@ -18,11 +18,10 @@ while($record= mysqli_fetch_assoc($query)) {
 	$rss .= '<genre>' . $mov_genre .'</genre>';
 	$rss .= '<director>' . $mov_director .'</director>';
 	$rss .= '</movie>';
-	
 }
+
 $rss .= '</channel>';
 $rss .= '</rss>';
-
 
 echo$rss;
 ?>	
