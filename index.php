@@ -1,6 +1,6 @@
 <?php
 	$domOBJ = new DOMDocument();
-	$domOBJ->load("https://demo-new1.herokuapp.com/rss.php");
+	$domOBJ->load("https://xmlexercise1.herokuapp.com/rss.php");
 	
 	$content = $domOBJ ->getElementbyTagName ("movie");
 	
