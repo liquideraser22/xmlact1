@@ -1,24 +1,3 @@
-<style>
-
-    .title{
-        display: flex;
-        justify-content: center;
-    }
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        border: 2px solid blue;
-        width: 30rem;
-        border-radius: 10px;
-    }
-    .border{
-        border: 1px solid blue;
-        max-width: 50rem;
-        border-radius: 10px;
-        background-color: grey;
-    }
-</style>
-
 <?php
  $domOBJ = new DOMDocument();
  $domOBJ->load("https://xmlexercise1.herokuapp.com/rss.php");//XML page URL
@@ -53,3 +32,23 @@
 ?>
 </div>
 </div>
+<style>
+
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid blue;
+        width: 30rem;
+        border-radius: 10px;
+    }
+    .border{
+        border: 1px solid blue;
+        max-width: 50rem;
+        border-radius: 10px;
+        background-color: grey;
+    }
+</style>
