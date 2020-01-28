@@ -8,7 +8,6 @@
  <h1>Movies</h1>
  </div>
  <div class="title">
-
  <div class="wrapper">
  <?php
  foreach( $content as $data )
