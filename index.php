@@ -7,13 +7,13 @@
     .wrapper{
         display: flex;
         flex-direction: column;
-        border: 2px solid grey;
+        border: 2px solid blue;
         width: 30rem;
     }
     .border{
-        border: 1px solid grey;
+        border: 1px solid blue;
         max-width: 50rem;
-        border-radius: 3px;
+        border-radius: 8px;
     }
 </style>
 
