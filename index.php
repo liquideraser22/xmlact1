@@ -5,7 +5,7 @@
  $content = $domOBJ->getElementsByTagName("movie");
 ?>
  <div class="content">
- <h1>movie</h1>
+ <h1>Movies</h1>
  </div>
  <div class="content">
 
