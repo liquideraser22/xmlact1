@@ -1,18 +1,19 @@
 <style>
 
-    .content{
+    .title{
         display: flex;
         justify-content: center;
     }
-    .wrap{
+    .wrapper{
         display: flex;
         flex-direction: column;
-        border: 1px solid black;
+        border: 2px solid grey;
         width: 30rem;
     }
     .border{
-        border: 1px solid black;
-        max-width: 40rem;
+        border: 1px solid grey;
+        max-width: 50rem;
+        border-radius: 3px;
     }
 </style>
 
@@ -22,12 +23,12 @@
  
  $content = $domOBJ->getElementsByTagName("movie");
 ?>
- <div class="content">
+ <div class="title">
  <h1>Movies</h1>
  </div>
- <div class="content">
+ <div class="title">
 
- <div class="wrap">
+ <div class="wrapper">
  <?php
  foreach( $content as $data )
  {?>
