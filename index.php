@@ -1,4 +1,4 @@
-<?
+<?php
 	$domOBJ = new DOMDocument();
 	$domOBJ->load("https://demo-new1.herokuapp.com/rss.php");
 	
