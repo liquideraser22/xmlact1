@@ -9,11 +9,12 @@
         flex-direction: column;
         border: 2px solid blue;
         width: 30rem;
+        border-radius: 10px;
     }
     .border{
         border: 1px solid blue;
         max-width: 50rem;
-        border-radius: 8px;
+       
         background-color: grey;
     }
 </style>
