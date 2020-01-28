@@ -9,7 +9,7 @@
 	<?php
 		foreach($content as $data)
 		{
-			
+			$id = $data->getElementsbyTagName("id")->item(0)->nodeValue;
 			$title = $data->getElementsbyTagName("title")->item(0)->nodeValue;
 			$actor = $data->getElementsbyTagName("actor")->item(0)->nodeValue;
 			$genre = $data->getElementsbyTagName("genre")->item(0)->nodeValue;
