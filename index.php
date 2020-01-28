@@ -23,6 +23,6 @@
 				<li>Movie Director: $director </li>
 			</ul>
 			</li>";	
-	}
+</ul>			
 	?>
-</ul>
+	}
