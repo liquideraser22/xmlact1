@@ -36,6 +36,7 @@
     .title{
         display: flex;
         justify-content: center;
+        font-family: Papyrus;
     }
     .wrapper{
         display: flex;
