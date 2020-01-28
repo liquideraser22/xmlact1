@@ -14,6 +14,7 @@
         border: 1px solid blue;
         max-width: 50rem;
         border-radius: 8px;
+        background-color: grey;
     }
 </style>
 
