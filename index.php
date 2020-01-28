@@ -18,7 +18,7 @@
 
 <?php
  $domOBJ = new DOMDocument();
- $domOBJ->load("https://xmlexcercise1.herokuapp.com/rss.php");//XML page URL
+ $domOBJ->load("https://xmlexercise1.herokuapp.com/rss.php");//XML page URL
  
  $content = $domOBJ->getElementsByTagName("movie");
 ?>
