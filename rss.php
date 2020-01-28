@@ -12,10 +12,11 @@ while($record= mysqli_fetch_assoc($query)) {
 	extract($record);
 	
 	$rss .= '<movie>';
-	$rss .= '<title>' . $title .'</title>';
-	$rss .= '<actor>' . $actor .'</actor>';
-	$rss .= '<genre>' . $genre .'</genre>';
-	$rss .= '<director>' . $director .'</director>';
+	$rss .= '<id>' . $mov_id .'</id>';
+	$rss .= '<title>' . $mov_title .'</title>';
+	$rss .= '<actor>' . $mov_actor .'</actor>';
+	$rss .= '<genre>' . $mov_genre .'</genre>';
+	$rss .= '<director>' . $mov_director .'</director>';
 	$rss .= '</movie>';
 	
 }
