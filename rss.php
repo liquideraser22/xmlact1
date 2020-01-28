@@ -18,8 +18,7 @@
         $actor = $r['mov_actor'];
         $genre = $r['mov_genre'];
         $director = $r['mov_director'];
-
-
+        
         echo "<movie>
         <title>$title</title>
         <actor>$actor</actor>
