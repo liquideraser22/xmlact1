@@ -1,3 +1,21 @@
+<style>
+
+    .content{
+        display: flex;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        width: 30rem;
+    }
+    .border{
+        border: 1px solid black;
+        max-width: 40rem;
+    }
+</style>
+
 <?php
  $domOBJ = new DOMDocument();
  $domOBJ->load("https://xmlexcercise1.herokuapp.com/rss.php");//XML page URL
