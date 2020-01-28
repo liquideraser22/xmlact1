@@ -19,11 +19,11 @@
      $genre = $data->getElementsByTagName("genre")->item(0)->nodeValue;
      $director = $data->getElementsByTagName("director")->item(0)->nodeValue;
      echo "<ul><h2>$title - $actor</h2>
-              <ul>
+           <ul>
                   <li>genre: $genre </li>
                   <li>director: $director </li>
-              </ul>
-          </ul>";
+          </ul>
+      </ul>";
     ?>
      </div>
   <?php
@@ -41,7 +41,7 @@
         display: flex;
         flex-direction: column;
         border: 2px solid blue;
-        width: 30rem;
+        width: 30%;
         border-radius: 10px;
     }
     .border{
