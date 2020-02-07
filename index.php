@@ -32,12 +32,7 @@
 </div>
 </div>
 <style>
-
-    .title{
-        display: flex;
-        justify-content: center;
-        font-family: Papyrus;
-    }
+ 
     .wrapper{
         display: flex;
         flex-direction: column;
