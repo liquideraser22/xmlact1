@@ -36,14 +36,12 @@
     .wrapper{
         display: flex;
         flex-direction: column;
-        border: 2px solid blue;
+        border: 2px solid black;
         width: 30%;
-        border-radius: 10px;
     }
     .border{
-        border: 1px solid blue;
+        border: 1px solid black;
         max-width: 50rem;
-        border-radius: 10px;
-        background-color: grey;
+        background-color: white;
     }
 </style>
